@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00957C15227065A10012A258 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C14227065A10012A258 /* AppDelegate.m */; };
+		00957C18227065A10012A258 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C17227065A10012A258 /* ViewController.m */; };
+		00957C1D227065A20012A258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00957C1C227065A20012A258 /* Assets.xcassets */; };
+		00957C20227065A20012A258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00957C1E227065A20012A258 /* LaunchScreen.storyboard */; };
+		00957C23227065A20012A258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C22227065A20012A258 /* main.m */; };
+		00957C4922759EF60012A258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00957C4822759EF60012A258 /* Main.storyboard */; };
+		00957C712276EE470012A258 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C592276EE460012A258 /* UIImage+Compress.m */; };
+		00957C722276EE470012A258 /* TSYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C5A2276EE460012A258 /* TSYButton.m */; };
+		00957C732276EE470012A258 /* UIView+TSYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C5E2276EE460012A258 /* UIView+TSYView.m */; };
+		00957C742276EE470012A258 /* TSYLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C602276EE460012A258 /* TSYLiveViewController.m */; };
+		00957C752276EE470012A258 /* TSYBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C642276EE460012A258 /* TSYBankViewController.m */; };
+		00957C762276EE470012A258 /* TSYVipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C652276EE460012A258 /* TSYVipViewController.m */; };
+		00957C772276EE470012A258 /* TSYBaseCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C672276EE460012A258 /* TSYBaseCardViewController.m */; };
+		00957C782276EE470012A258 /* TSYVoucherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C692276EE460012A258 /* TSYVoucherViewController.m */; };
+		00957C792276EE470012A258 /* IMICardsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00957C6C2276EE460012A258 /* IMICardsCollectionViewCell.xib */; };
+		00957C7A2276EE470012A258 /* IMICardsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C6F2276EE460012A258 /* IMICardsCollectionViewCell.m */; };
+		00957C7B2276EE470012A258 /* IMICardsCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00957C702276EE460012A258 /* IMICardsCollectionViewFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00957C10227065A10012A258 /* IDCardsFolding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDCardsFolding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00957C13227065A10012A258 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00957C14227065A10012A258 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00957C16227065A10012A258 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00957C17227065A10012A258 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00957C1C227065A20012A258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00957C1F227065A20012A258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00957C21227065A20012A258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00957C22227065A20012A258 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00957C4822759EF60012A258 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		00957C592276EE460012A258 /* UIImage+Compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
+		00957C5A2276EE460012A258 /* TSYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYButton.m; sourceTree = "<group>"; };
+		00957C5B2276EE460012A258 /* UIView+TSYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TSYView.h"; sourceTree = "<group>"; };
+		00957C5C2276EE460012A258 /* TSYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYButton.h; sourceTree = "<group>"; };
+		00957C5D2276EE460012A258 /* UIImage+Compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
+		00957C5E2276EE460012A258 /* UIView+TSYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TSYView.m"; sourceTree = "<group>"; };
+		00957C602276EE460012A258 /* TSYLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYLiveViewController.m; sourceTree = "<group>"; };
+		00957C612276EE460012A258 /* TSYVipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYVipViewController.h; sourceTree = "<group>"; };
+		00957C622276EE460012A258 /* TSYBaseCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYBaseCardViewController.h; sourceTree = "<group>"; };
+		00957C632276EE460012A258 /* TSYVoucherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYVoucherViewController.h; sourceTree = "<group>"; };
+		00957C642276EE460012A258 /* TSYBankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYBankViewController.m; sourceTree = "<group>"; };
+		00957C652276EE460012A258 /* TSYVipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYVipViewController.m; sourceTree = "<group>"; };
+		00957C662276EE460012A258 /* TSYLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYLiveViewController.h; sourceTree = "<group>"; };
+		00957C672276EE460012A258 /* TSYBaseCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYBaseCardViewController.m; sourceTree = "<group>"; };
+		00957C682276EE460012A258 /* TSYBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYBankViewController.h; sourceTree = "<group>"; };
+		00957C692276EE460012A258 /* TSYVoucherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYVoucherViewController.m; sourceTree = "<group>"; };
+		00957C6C2276EE460012A258 /* IMICardsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMICardsCollectionViewCell.xib; sourceTree = "<group>"; };
+		00957C6D2276EE460012A258 /* IMICardsCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMICardsCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		00957C6E2276EE460012A258 /* IMICardsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMICardsCollectionViewCell.h; sourceTree = "<group>"; };
+		00957C6F2276EE460012A258 /* IMICardsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMICardsCollectionViewCell.m; sourceTree = "<group>"; };
+		00957C702276EE460012A258 /* IMICardsCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMICardsCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00957C0D227065A10012A258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00957C07227065A10012A258 = {
+			isa = PBXGroup;
+			children = (
+				00957C12227065A10012A258 /* IDCardsFolding */,
+				00957C11227065A10012A258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00957C11227065A10012A258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00957C10227065A10012A258 /* IDCardsFolding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00957C12227065A10012A258 /* IDCardsFolding */ = {
+			isa = PBXGroup;
+			children = (
+				00957C5F2276EE460012A258 /* Controller */,
+				00957C6B2276EE460012A258 /* View */,
+				00957C582276EE460012A258 /* Other */,
+				00957C13227065A10012A258 /* AppDelegate.h */,
+				00957C14227065A10012A258 /* AppDelegate.m */,
+				00957C1C227065A20012A258 /* Assets.xcassets */,
+				00957C4822759EF60012A258 /* Main.storyboard */,
+				00957C1E227065A20012A258 /* LaunchScreen.storyboard */,
+				00957C21227065A20012A258 /* Info.plist */,
+				00957C22227065A20012A258 /* main.m */,
+			);
+			path = IDCardsFolding;
+			sourceTree = "<group>";
+		};
+		00957C582276EE460012A258 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				00957C592276EE460012A258 /* UIImage+Compress.m */,
+				00957C5A2276EE460012A258 /* TSYButton.m */,
+				00957C5B2276EE460012A258 /* UIView+TSYView.h */,
+				00957C5C2276EE460012A258 /* TSYButton.h */,
+				00957C5D2276EE460012A258 /* UIImage+Compress.h */,
+				00957C5E2276EE460012A258 /* UIView+TSYView.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		00957C5F2276EE460012A258 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00957C16227065A10012A258 /* ViewController.h */,
+				00957C17227065A10012A258 /* ViewController.m */,
+				00957C622276EE460012A258 /* TSYBaseCardViewController.h */,
+				00957C672276EE460012A258 /* TSYBaseCardViewController.m */,
+				00957C662276EE460012A258 /* TSYLiveViewController.h */,
+				00957C602276EE460012A258 /* TSYLiveViewController.m */,
+				00957C682276EE460012A258 /* TSYBankViewController.h */,
+				00957C642276EE460012A258 /* TSYBankViewController.m */,
+				00957C632276EE460012A258 /* TSYVoucherViewController.h */,
+				00957C692276EE460012A258 /* TSYVoucherViewController.m */,
+				00957C612276EE460012A258 /* TSYVipViewController.h */,
+				00957C652276EE460012A258 /* TSYVipViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00957C6B2276EE460012A258 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00957C6D2276EE460012A258 /* IMICardsCollectionViewFlowLayout.h */,
+				00957C702276EE460012A258 /* IMICardsCollectionViewFlowLayout.m */,
+				00957C6E2276EE460012A258 /* IMICardsCollectionViewCell.h */,
+				00957C6F2276EE460012A258 /* IMICardsCollectionViewCell.m */,
+				00957C6C2276EE460012A258 /* IMICardsCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00957C0F227065A10012A258 /* IDCardsFolding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00957C26227065A20012A258 /* Build configuration list for PBXNativeTarget "IDCardsFolding" */;
+			buildPhases = (
+				00957C0C227065A10012A258 /* Sources */,
+				00957C0D227065A10012A258 /* Frameworks */,
+				00957C0E227065A10012A258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDCardsFolding;
+			productName = IDCardsFolding;
+			productReference = 00957C10227065A10012A258 /* IDCardsFolding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00957C08227065A10012A258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = TangShuya;
+				TargetAttributes = {
+					00957C0F227065A10012A258 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 00957C0B227065A10012A258 /* Build configuration list for PBXProject "IDCardsFolding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00957C07227065A10012A258;
+			productRefGroup = 00957C11227065A10012A258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00957C0F227065A10012A258 /* IDCardsFolding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00957C0E227065A10012A258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00957C4922759EF60012A258 /* Main.storyboard in Resources */,
+				00957C20227065A20012A258 /* LaunchScreen.storyboard in Resources */,
+				00957C792276EE470012A258 /* IMICardsCollectionViewCell.xib in Resources */,
+				00957C1D227065A20012A258 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00957C0C227065A10012A258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00957C732276EE470012A258 /* UIView+TSYView.m in Sources */,
+				00957C762276EE470012A258 /* TSYVipViewController.m in Sources */,
+				00957C7A2276EE470012A258 /* IMICardsCollectionViewCell.m in Sources */,
+				00957C7B2276EE470012A258 /* IMICardsCollectionViewFlowLayout.m in Sources */,
+				00957C18227065A10012A258 /* ViewController.m in Sources */,
+				00957C782276EE470012A258 /* TSYVoucherViewController.m in Sources */,
+				00957C712276EE470012A258 /* UIImage+Compress.m in Sources */,
+				00957C772276EE470012A258 /* TSYBaseCardViewController.m in Sources */,
+				00957C23227065A20012A258 /* main.m in Sources */,
+				00957C722276EE470012A258 /* TSYButton.m in Sources */,
+				00957C752276EE470012A258 /* TSYBankViewController.m in Sources */,
+				00957C15227065A10012A258 /* AppDelegate.m in Sources */,
+				00957C742276EE470012A258 /* TSYLiveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00957C1E227065A20012A258 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00957C1F227065A20012A258 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00957C24227065A20012A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00957C25227065A20012A258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00957C27227065A20012A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH694D3NL4;
+				INFOPLIST_FILE = IDCardsFolding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsy.net.IDCardsFolding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00957C28227065A20012A258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH694D3NL4;
+				INFOPLIST_FILE = IDCardsFolding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsy.net.IDCardsFolding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00957C0B227065A10012A258 /* Build configuration list for PBXProject "IDCardsFolding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00957C24227065A20012A258 /* Debug */,
+				00957C25227065A20012A258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00957C26227065A20012A258 /* Build configuration list for PBXNativeTarget "IDCardsFolding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00957C27227065A20012A258 /* Debug */,
+				00957C28227065A20012A258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00957C08227065A10012A258 /* Project object */;
+}
